@@ -1,0 +1,33 @@
+{
+  "cSpell.words": [
+    "alvaroreynoso",
+    "boton",
+    "Creá",
+    "Empezá",
+    "federicoluna",
+    "Gestioná",
+    "headlessui",
+    "Ingresá",
+    "ingridgrolimund",
+    "Lisboa",
+    "lucianotessa",
+    "olvidás",
+    "organizá",
+    "Organizá",
+    "Planificá",
+    "Registrate",
+    "Reynoso",
+    "superadmin",
+    "tenés",
+    "tripzy",
+    "Tripzy"
+  ],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": false,
+    "yaml": false
+  }
+}

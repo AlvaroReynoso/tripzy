@@ -1,0 +1,31 @@
+.container-input {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.3em;
+  max-width: 600px;
+}
+
+.card-container {
+  display: flex;
+  margin-top: 1em;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.info-user {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.column {
+  flex-direction: column;
+  width: fit-content;
+}
+
+.select {
+  padding: 4px;
+  border: 1px solid var(--color-border);
+}

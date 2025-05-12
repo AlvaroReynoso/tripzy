@@ -1,0 +1,33 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-background);
+  z-index: 100;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.header-links a:hover {
+  color: var(--color-primary);
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.botonP {
+  text-decoration: none;
+}

@@ -1,0 +1,43 @@
+.trip-container {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex-direction: column;
+}
+
+.trip-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.trip-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.friends-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+
+.avatar.add-user {
+  background-color: var(--color-secondary);
+  color: black;
+}
+
+.activity-card-buttons {
+  display: flex;
+  margin-left: auto;
+  gap: 0.5em;
+}

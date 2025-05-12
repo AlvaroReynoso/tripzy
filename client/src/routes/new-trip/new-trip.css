@@ -1,0 +1,177 @@
+.new-itinerary-bg {
+  background-color: var(--color-secondary);
+}
+
+.new-itinerary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  width: 100%;
+}
+
+.new-trip-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.inputs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 0.5em;
+  column-gap: 1em;
+}
+
+.new-trip-button {
+  max-width: 15em;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  padding: 0.6em 1.2em;
+}
+
+.user-card .name {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.users-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  width: 100%;
+}
+
+.days-buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.days-buttons-container > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5em;
+  background: transparent;
+  border: none;
+  text-align: left;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+}
+.days-buttons-container > button > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  background-color: white;
+  padding: 0.15em 0.3em;
+  border-radius: var(--border-radius-small);
+}
+.days-buttons-container > button > span:hover {
+  filter: brightness(0.8);
+}
+
+.days-buttons-container > button.active {
+  background-color: #df6d1488;
+}
+
+.days-buttons-container > button:hover {
+  background-color: #df6d1488;
+  color: var(--color-text);
+}
+
+.days-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  height: fit-content;
+}
+
+.activities-container {
+  width: 100%;
+}
+
+.day {
+  font-weight: 500;
+}
+
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.activity-card {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 1em;
+}
+
+.activity-card > span {
+  font-size: 1.2em;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.new-activity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  gap: 1em;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--border-radius-small);
+}
+
+.new-activity-card > .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1em;
+}
+.new-activity-card > .top :nth-child(1) {
+  min-width: 11em;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-activity-card > .top :nth-child(2) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input {
+  width: 100%;
+}
+
+.email {
+  font-size: small;
+}
